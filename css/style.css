@@ -201,7 +201,7 @@ flex-direction: column;
   font-family: 'Inter';
 }
 
-.time-btn{
+.time-btn a{
 border-radius: 8px;
 background: rgb(255, 0, 0);
 padding: 16px 32px 16px 32px;
@@ -211,11 +211,13 @@ font-size: 20px;
 font-weight: 700;
 line-height: 24px;
 letter-spacing: 0%;
-text-align: center;
+/* text-align: center; */
 text-transform: uppercase;
 border: none;
+text-decoration: none;
 
 }
+
 
 /* comming soon offer card */
 
