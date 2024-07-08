@@ -167,7 +167,7 @@ margin-left: 32px;
 }
 
 
-/* Times are design */
+/* Times card design */
 
 .time-container{
 border-radius: 16px;
@@ -215,4 +215,82 @@ text-align: center;
 text-transform: uppercase;
 border: none;
 
+}
+
+/* comming soon offer card */
+
+.new-year-container{
+  margin-top: 120px;
+}
+
+.new-year-content{
+  width: 1320px;
+  height: 463px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  gap: 100px;
+
+}
+.group{
+  box-sizing: border-box;
+border: 15px solid rgb(255, 0, 0);
+border-radius: 50%;
+padding: 49.08px;
+}
+
+.new-year-chield-description{
+  color: rgb(255, 0, 0);
+font-family: 'Inter';
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+margin-bottom: 45px;
+}
+.new-year-chield-title{
+  color: rgb(7, 2, 17);
+font-family: 'Merriweather';
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+margin-bottom: 22px;
+}
+
+.new-year-chield-description2{
+color: rgba(7, 2, 17, 0.6);
+font-family: 'Inter';
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.new-year-chield3-title{
+  color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+/* line-height: 58px; */
+letter-spacing: 0%;
+text-align: left;
+padding-top: 112px ;
+margin-bottom: 16px;
+}
+
+.new-year-chield3-description{
+  color: rgba(7, 2, 17, 0.6);
+font-family: 'Inter';
+font-size: 20px;
+font-weight: 400;
+/* line-height: 32px; */
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 64px;
 }
