@@ -164,3 +164,16 @@ margin-left: 32px;
 .secoend-pic{
   margin: 68px 108px;
 }
+
+
+/* Times are design */
+
+.time-content{
+  width: 100%;
+  text-align: center;
+
+}
+
+.time-description{
+  color: rgb(255, 0, 0);
+}
