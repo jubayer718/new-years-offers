@@ -211,7 +211,7 @@ font-size: 20px;
 font-weight: 700;
 line-height: 24px;
 letter-spacing: 0%;
-/* text-align: center; */
+text-align: center;
 text-transform: uppercase;
 border: none;
 text-decoration: none;
@@ -346,3 +346,48 @@ text-align: center;
   color: rgb(255, 0, 0);
 }
 
+/* discount section area style */
+
+
+
+.discount-content{
+  height: 920px;
+  width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+  /* align-items: center; */
+
+}
+
+
+.solid-color{
+  height: 229px;
+  width: 1260px;
+  
+ 
+background-color:  red;
+position: absolute;
+top: 70%;
+border-radius: 10px;
+
+margin: 0 auto;
+display: block;
+}
+.first-discount-content-child{
+ padding-top: 15%;
+ 
+ z-index: 1;
+
+}
+.secoend-discount-content-child{
+ top: 20%;
+ right: 8%;
+ position: absolute;
+}
+.expretion{
+  position: absolute;
+   background: bottom right;
+}
