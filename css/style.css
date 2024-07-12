@@ -394,6 +394,7 @@ display: block;
 @media  screen and (max-width: 576px) {
   body{
     grid-template-columns: repeat(1, 1fr);
+    max-width: 100%;
   }
   
 }
